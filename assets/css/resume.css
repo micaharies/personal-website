@@ -7,12 +7,12 @@
     --outline-color: rgb(72, 72, 72);
 }
 
-a.email {
+a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+h2>a:hover {
     text-decoration: underline;
 }
 
@@ -53,4 +53,12 @@ td.skill {
     margin: auto;
     width: 150px;
     text-align: center;
+}
+
+div#tableedu {
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin: 0px;
 }
