@@ -1,0 +1,20 @@
+---
+name: "🔨 Update Website"
+
+on:
+  push:
+    branches: [master, main]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: cd /var/www/mhaire.net/ && git fetch --all && git reset --hard origin/HEAD
+          host: ${{ secrets.HOST }}
+          port: ${{ secrets.PORT }}
+          username: ${{ secrets.USER }}
+          privateKey: ${{ secrets.PRIVATE_KEY }}
+        env:
+          CI: true
