@@ -1,3 +1,1 @@
-this is my personal website
-
-gaming
+# [mhaire.net](https://mhaire.net)
