@@ -12,7 +12,7 @@ a {
     color: white;
 }
 
-h2>a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -81,4 +81,10 @@ h3 {
 
 *::-webkit-scrollbar-thumb:hover {
     background-color: #555;
+}
+
+.resume {
+    padding: 40px;
+    font-size: 1.4em;
+    font-weight: bold;
 }
