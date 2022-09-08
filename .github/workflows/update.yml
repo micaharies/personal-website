@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd /var/www/mhaire.net/ && git fetch --all && git reset --hard origin/HEAD
+          command: cd /var/www/mhaire.net/ && git fetch --all && git reset --hard origin/HEAD && systemctl apache2 restart
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USER }}

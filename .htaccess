@@ -16,3 +16,18 @@ RedirectMatch 404 /\.git
 # Hide GH specific files
 Redirect /README.md /
 Redirect /LICENSE.md /
+
+RedirectMatch (?i)^/tw/?$ https://twitter.com/micah_haire/
+RedirectMatch (?i)^/twitter/?$ https://twitter.com/micah_haire/
+RedirectMatch (?i)^/twit/?$ https://twitter.com/micah_haire/
+RedirectMatch (?i)^/gh/?$ https://github.com/micaharies/
+RedirectMatch (?i)^/github/?$ https://github.com/micaharies/
+RedirectMatch (?i)^/git/?$ https://github.com/micaharies/
+RedirectMatch (?i)^/code/?$ https://github.com/micaharies/
+RedirectMatch (?i)^/last/?$ https://last.fm/user/micaharies/
+RedirectMatch (?i)^/lastfm/?$ https://last.fm/user/micaharies/
+RedirectMatch (?i)^/resume-pdf/?$ https://docs.google.com/viewer?url=https://github.com/micaharies/resume/releases/download/latest/resume.pdf
+RedirectMatch (?i)^/linkedin/?$ https://www.linkedin.com/in/micah-haire/
+RedirectMatch (?i)^/steam/?$ https://steamcommunity.com/id/micaharies/
+RedirectMatch (?i)^/np/?$ https://mhaire.net/now-playing/
+RedirectMatch (?i)^/mail/?$ https://box.mhaire.net/mail/
