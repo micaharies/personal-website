@@ -75,7 +75,7 @@ footer, .footer {
 
 .link {
     display: inline-block;
-    margin-bottom: 20px;
+    padding: auto;
     padding: 17px;
     font-size: 1rem;
     font-weight: 500;
