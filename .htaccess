@@ -32,3 +32,4 @@ RedirectMatch (?i)^/li/?$ https://www.linkedin.com/in/micah-haire/
 RedirectMatch (?i)^/steam/?$ https://steamcommunity.com/id/micaharies/
 RedirectMatch (?i)^/np/?$ https://mhaire.net/now-playing/
 RedirectMatch (?i)^/mail/?$ https://box.mhaire.net/mail/
+RedirectMatch (?i)^/free-vbucks/?$ https://https://youtu.be/sLR3hv_UEUU/
