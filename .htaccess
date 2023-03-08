@@ -10,8 +10,9 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 # Where 404's go:
 ErrorDocument 404 https://mhaire.net/
 
-# Hide .git like folders/files
+# Hide .git and .vscode like folders/files
 RedirectMatch 404 /\.git
+RedirectMatch 404 /\.vscode
 
 # Hide GH specific files
 Redirect /README.md /
@@ -26,7 +27,8 @@ RedirectMatch (?i)^/git/?$ https://github.com/micaharies/
 RedirectMatch (?i)^/code/?$ https://github.com/micaharies/
 RedirectMatch (?i)^/last/?$ https://last.fm/user/micaharies/
 RedirectMatch (?i)^/lastfm/?$ https://last.fm/user/micaharies/
-RedirectMatch (?i)^/resume-pdf/?$ https://docs.google.com/viewer?url=https://github.com/micaharies/resume/releases/download/latest/resume.pdf
+RedirectMatch (?i)^/resume/?$ https://href.li?https://docs.google.com/viewer?url=https://github.com/micaharies/resume/releases/download/latest/resume.pdf
+RedirectMatch (?i)^/resume-pdf/?$ https://mhaire.net/resume
 RedirectMatch (?i)^/linkedin/?$ https://www.linkedin.com/in/micah-haire/
 RedirectMatch (?i)^/li/?$ https://www.linkedin.com/in/micah-haire/
 RedirectMatch (?i)^/steam/?$ https://steamcommunity.com/id/micaharies/
@@ -36,4 +38,3 @@ RedirectMatch (?i)^/free-vbucks/?$ https://youtu.be/sLR3hv_UEUU/
 RedirectMatch (?i)^/fortnite-hax/?$ https://youtu.be/-T4Eo9XJrmA?t=24
 RedirectMatch (?i)^/donate/?$ https://cash.app/$micaharies/
 RedirectMatch (?i)^/blog/?$ https://blog.mhaire.net/
-RedirectMatch (?i)^/resume/?$ https://docs.google.com/viewer?url=https://github.com/micaharies/resume/releases/download/latest/resume.pdf
