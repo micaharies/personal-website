@@ -37,4 +37,4 @@ RedirectMatch (?i)^/mail/?$ https://box.mhaire.net/mail/
 RedirectMatch (?i)^/free-vbucks/?$ https://youtu.be/sLR3hv_UEUU/
 RedirectMatch (?i)^/fortnite-hax/?$ https://youtu.be/-T4Eo9XJrmA?t=24
 RedirectMatch (?i)^/donate/?$ https://cash.app/$micaharies/
-RedirectMatch (?i)^/blog/?$ https://blog.mhaire.net/
+RedirectMatch (?i)^/blog/?$ https://substack.com/@micaharies
