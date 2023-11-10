@@ -18,9 +18,9 @@ RedirectMatch 404 /\.vscode
 Redirect /README.md /
 Redirect /LICENSE.md /
 
-RedirectMatch (?i)^/tw/?$ https://twitter.com/micah_haire/
-RedirectMatch (?i)^/twitter/?$ https://twitter.com/micah_haire/
-RedirectMatch (?i)^/twit/?$ https://twitter.com/micah_haire/
+RedirectMatch (?i)^/tw/?$ https://twitter.com/micaharies1/
+RedirectMatch (?i)^/twitter/?$ https://twitter.com/micaharies1/
+RedirectMatch (?i)^/twit/?$ https://twitter.com/micaharies1/
 RedirectMatch (?i)^/gh/?$ https://github.com/micaharies/
 RedirectMatch (?i)^/github/?$ https://github.com/micaharies/
 RedirectMatch (?i)^/git/?$ https://github.com/micaharies/
